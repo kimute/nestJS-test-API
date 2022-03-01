@@ -4,7 +4,7 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
     @Get()
     home(){
-        return 'welcom to my Movir App'
+        return 'Welcom to my Movie API'
     }
 
 }
